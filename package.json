@@ -1,0 +1,14 @@
+{
+  "name": "netlify",
+  "version": "1.0.1",
+  "description": "Net_Edge_Relay",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "netlify-cli": "latest"
+  }
+}
