@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ==============================================================
+         Basic meta‑information
+        ============================================================== -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Add a short description – helps with SEO & accessibility -->
+    <meta
+      name="description"
+      content="A minimal Netlify Relay demo – all routes are forwarded by an Edge Function."
+    />
+    <meta name="author" content="Your Name" />
+
+    <!-- Page title -->
+    <title>Netlify Relay</title>
+
+    <!-- ==============================================================
+         Google Fonts – a modern sans‑serif for a clean look
+        ============================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ==============================================================
+         Inline CSS – keeps the demo self‑contained
+        ============================================================== -->
+    <style>
+      /* Use the full viewport height and center the container */
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #e0f7fa 0%, #ffebee 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      /* Main content wrapper – card‑style */
+      .container {
+        background: #fff;
+        padding: 2rem 3rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 600px;
+        width: 90%;
+      }
+
+      h1 {
+        margin-top: 0;
+        color: #00796b;
+        font-weight: 600;
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+      }
+
+      code {
+        background: #f5f5f5;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        font-family: monospace;
+      }
+
+      footer {
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        color: #777;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ==============================================================
+         Content container – holds all visible elements
+        ============================================================== -->
+    <div class="container">
+      <!-- Main heading -->
+      <h1>Net Relay</h1>
+
+      <!-- Informative paragraph – explains how the Edge Function works -->
+      <p>
+        The Edge Function is configured on <code>/*</code>, allowing every
+        request to be go to the target domain.
+      </p>
+
+      <!-- Optional footer with copyright -->
+      <footer>&copy; 2026 NIT. All rights reserved.</footer>
+    </div>
+  </body>
+</html>
